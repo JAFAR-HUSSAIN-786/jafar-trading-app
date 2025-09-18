@@ -1,0 +1,1 @@
+Place your app icon at ./assets/icon.png (optional). The app will run without an icon.
