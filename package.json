@@ -1,0 +1,24 @@
+{
+  "name": "multi-broker-trading-bot",
+  "version": "1.0.0",
+  "description": "Enhanced multi-broker trading bot for crypto, forex, and commodities",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trading",
+    "bot",
+    "crypto",
+    "forex",
+    "exness",
+    "binance"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  }
+}
