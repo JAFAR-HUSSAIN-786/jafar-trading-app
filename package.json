@@ -1,24 +1,35 @@
 {
-  "name": "multi-broker-trading-bot",
-  "version": "1.0.0",
-  "description": "Enhanced multi-broker trading bot for crypto, forex, and commodities",
-  "main": "App.js",
+  "name": "trading-bot",
+  "version": "2.0.0",
+  "description": "Multi-Broker Automated Trading Bot",
+  "main": "bot.js",
   "scripts": {
-    "start": "node App.js",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "trading",
     "bot",
+    "exness",
+    "binance",
     "crypto",
     "forex",
-    "exness",
-    "binance"
+    "automation"
   ],
   "author": "Your Name",
   "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "node-binance-api": "^0.13.1",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "engines": {
-    "node": "22.x",
-    "npm": "10.x"
+    "node": ">=16.0.0"
   }
 }
