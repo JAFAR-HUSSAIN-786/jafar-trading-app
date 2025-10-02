@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Trading Bot Assistant",
+  "version": "2.0.0",
+  "description": "Assistant for Multi-Broker Trading Bot",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Trading Bot"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.exness.com/*",
+        "https://*.binance.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["bot.js", "index.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
