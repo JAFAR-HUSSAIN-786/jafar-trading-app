@@ -1,3 +1,17 @@
-# jafar-bot (Full Version) - Ready ZIP
+# Jafar Billionaire GPT Trading Bot
 
-Download this ZIP now. It contains the full project scaffold.
+✅ Heroku Ready Bot Setup
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## Local Setup
+```bash
+npm install
+npm start
+```
+
+## Environment Variables
+- Copy `.env.example` to `.env`
+- Add your keys
