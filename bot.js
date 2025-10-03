@@ -1,0 +1,1 @@
+module.exports={start:()=>console.log('bot start'),stop:()=>console.log('bot stop')};
